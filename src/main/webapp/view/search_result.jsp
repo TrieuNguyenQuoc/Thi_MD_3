@@ -1,6 +1,6 @@
-<%---<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>-%>
+<%--<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl" %>--%>
 <%--
-  Created by IntelliJ IDEA.
+Created by IntelliJ IDEA.
 User: Quốc Triệu
   Date: 7/05/2023
   Time: 11:34 AM

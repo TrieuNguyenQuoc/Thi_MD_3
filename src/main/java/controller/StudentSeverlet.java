@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
-@WebServlet(name = "StudentSeverlet", value = "/home")
+@WebServlet("/home")
 public class StudentSeverlet extends HttpServlet {
     StudenDao studenDao;
     @Override

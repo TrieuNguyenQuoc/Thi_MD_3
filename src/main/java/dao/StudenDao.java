@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class StudenDao {
-    public static final String JDBC_URL = "jdbc:mysql://localhost:3306/exam_module_3?useSSL=false";
+    public static final String JDBC_URL = "jdbc:mysql://localhost:3306/?useSSL=false";
     public static final String JDBC_USER = "root";
     public static final String JDBC_PASSWORD = "123456789";
 

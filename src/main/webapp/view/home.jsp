@@ -1,6 +1,6 @@
-<%--<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>--%>
+<%--<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl" %>--%>
 <%--
-  Created by IntelliJ IDEA.
+Created by IntelliJ IDEA.
  User: Quốc Triệu
   Date: 7/05/2023
   Time: 10:51 AM
@@ -28,15 +28,15 @@
         <th>birth</th>
         <th>classroom</th>
     </tr>
-    <c:forEach var="resultStudent" items="${requestScope.studenList}">
+    <c:forEach var="resultStudent" items="${studenList}">
         <tr>
-            <th>${resultStudent.id()}</th>
+            <th>${resultStudent.id}</th>
             <th>${resultStudent.name}</th>
             <th>${resultStudent.email}</th>
             <th>${resultStudent.address}</th>
             <th>${resultStudent.phone}</th>
             <th>${resultStudent.birth}</th>
-            <th>${resultStudent.classroom}</th>
+<%--            <th>${resultStudent.classroom}</th>--%>
             <th><a href="home?choice=edit&employee_id=${resultStudent.getid()}">Sửa</a></th>
             <th><a href="home?choice=delete&employee_id=${resultStudent.getid()}">Xóa</a></th>
         </tr>
